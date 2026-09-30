@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id/id,operation,domain
+access_account_move_import_full,Full access on account.move.import,model_account_move_import,account.group_account_user,crud,
+access_account_move_import_config_full,Full access on account.move.import.config,model_account_move_import_config,account.group_account_manager,crud,
+access_account_move_import_config_read,Read access on account.move.import.config,model_account_move_import_config,account.group_account_user,r,
+account_move_import_config_multi_company_rule,Multi-company rule for Journal Entries Import Configuration,model_account_move_import_config,,crud,"[('company_id', 'in', company_ids + [False])]"
